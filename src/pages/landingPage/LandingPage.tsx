@@ -1,3 +1,4 @@
+import CardsComponent from "./CardsComponent";
 import Header from "./Header";
 import Steps from "./Steps";
 
@@ -6,6 +7,7 @@ const LandingPage = () => {
     <>
       <Header />
       <Steps />
+      <CardsComponent />
     </>
   );
 };
